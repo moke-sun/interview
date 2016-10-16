@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>前端测试Demo</title>
+
+  <!-- Bootstrap -->
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/stylesheets/app.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+
+
+  <![endif]-->
+</head>
+<body>
+
+<div>
+  <div class="bg-light lter b-b wrapper-md ng-scope">
+    <h1 class="m-n font-thin h3 ddd">Search</h1>
+  </div>
+  <div class="wrapper-md">
+    <form action="#" class="m-b-md">
+      <div class="input-group">
+        <input type="text" class="form-control input-lg" placeholder="Start Search Everything">
+        <span class="input-group-btn">
+          <button class="btn btn-lg btn-default" type="button">Search</button>
+        </span>
+      </div>
+    </form>
+  </div>
+  <div class="wrapper-md">
+    <div class="row">
+      <div class="col-sm-9">
+
+        <div class="panel b-a">
+          <div class="panel-heading pos-rlt b-b b-light">
+            <a href>Peter</a>
+            <label class="label bg-primary m-l-xs">Vip</label>
+              <span class="text-muted m-l-sm pull-right">
+                <i class="fa fa-clock-o"></i>
+                2hs ago
+              </span>
+          </div>
+          <div class="panel-body">
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+            </blockquote>
+            <div>Lorem ipsum dolor sit amet, consecteter adipiscing elit...</div>
+            <div class="m-t-sm">
+              <a href data-toggle="class" class="btn btn-default btn-xs">
+                <i class="fa fa-star-o text-muted text"></i>
+                <i class="fa fa-star text-danger text-active"></i>
+                Like
+              </a>
+              <a href class="btn btn-default btn-xs"><i class="fa fa-mail-reply text-muted"></i> Reply</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-sm-3">
+        <h5 class="font-bold">Categories</h5>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <a href>
+              <span class="badge pull-right">15</span>
+              Photograph
+            </a>
+          </li>
+          <li class="list-group-item">
+            <a href>
+              <span class="badge pull-right">30</span>
+              Life style
+            </a>
+          </li>
+          <li class="list-group-item">
+            <a href>
+              <span class="badge pull-right">9</span>
+              Food
+            </a>
+          </li>
+          <li class="list-group-item">
+            <a href>
+              <span class="badge pull-right">4</span>
+              Travel world
+            </a>
+          </li>
+        </ul>
+        <div class="tags m-b-lg l-h-2x">
+          <a href class="label bg-primary">Bootstrap</a> <a href class="label bg-primary">Application</a> <a href class="label bg-primary">Apple</a> <a href class="label bg-primary">Less</a> <a href class="label bg-primary">Theme</a> <a href class="label bg-primary">Wordpress</a>
+        </div>
+        <h5 class="font-bold">Recent Posts</h5>
+        <div>
+          <div>
+            <a class="pull-left thumb thumb-wrapper m-r">
+              <img src="/images/b0.jpg">
+            </a>
+            <div class="clear">
+              <a href class="font-semibold text-ellipsis">Bootstrap 3: What you need to know</a>
+              <div class="text-xs block m-t-xs"><a href>Travel</a> 2 minutes ago</div>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div>
+            <a class="pull-left thumb thumb-wrapper m-r">
+              <img src="/images/b1.jpg">
+            </a>
+            <div class="clear">
+              <a href class="font-semibold text-ellipsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+              <div class="text-xs block m-t-xs"><a href>Design</a> 2 hours ago</div>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div>
+            <a class="pull-left thumb thumb-wrapper m-r">
+              <img src="/images/b2.jpg">
+            </a>
+            <div class="clear">
+              <a href class="font-semibold text-ellipsis">Sed diam nonummy nibh euismod tincidunt ut laoreet</a>
+              <div class="text-xs block m-t-xs"><a href>MFC</a> 1 week ago</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/node_modules/seajs/dist/sea.js"></script>
+
+<script>
+
+  // seajs 的简单配置
+  seajs.config({
+    base: "/node_modules/seajs",
+    alias: {
+      "jquery": "/vendor/jquery/jquery.min.js",
+      "json":"/vendor/json.js",
+      "q":"/node_modules/q/q.js",
+      "underscore":"/node_modules/underscore/underscore-min.js"
+    }
+  })
+
+  // 加载入口模块
+  seajs.use("/javascripts/main")
+
+</script>
+</body>
+</html>

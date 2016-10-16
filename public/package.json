@@ -1,0 +1,18 @@
+{
+  "browser": {
+    "jquery": "./vendor/jquery/jquery.js",
+    "json": "./vendor/json.js"
+  },
+  "browserify": {
+    "transform": "browserify-shim"
+  },
+  "browserify-shim": {
+    "jquery": "jquery",
+    "json": "json"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-sequence": "^0.4.6"
+  }
+}

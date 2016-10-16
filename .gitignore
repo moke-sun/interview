@@ -1,0 +1,9 @@
+#Ignored File
+
+
+.idea/
+bin/
+build/
+logs/
+public/upload/
+node_modules/

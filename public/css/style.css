@@ -1,0 +1,105 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+/*page 1*/
+.interview-name{
+  color:#5cb85c;
+  font-size: 38px;
+}
+
+.page-1{
+  color:#fff;
+  background: url("https://dyupuz6787mty.cloudfront.net/assets/vid/Hello-World.jpg");
+}
+
+.page-1 .container{
+  padding-top:50px;
+}
+
+.page-1 .form input {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px 10px;
+}
+
+/*page 2*/
+.page-2{
+  color:#fff;
+  background: url("https://www.mobapi.com/img/pattern-bg.png");
+}
+
+.page-2 .form{
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.page-2 .form input {
+  border-radius: 0;
+  border: none;
+  border-bottom: 4px solid #f00;
+  background: transparent;
+  color: #fff;
+  padding: 0;
+  font-size: 18px;
+}
+
+/*page 3*/
+.page-3{
+  color:#fff;
+  height: 100%;
+  background: url("http://libuv.org/images/libuv-bg.png") center center no-repeat fixed #333;
+  background-size: 500px;
+}
+
+.page-3 .skill-panel{
+  background: #transparent;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin: 20px 0;
+  padding: 0 0 30px 0;
+  height: 200px;
+}
+
+.page-3 .skill-panel .skill-list li{
+  float: left;
+  list-style: none;
+  padding: 2px 5px;
+}
+
+.page-3 .skill-panel .skill-list li a{
+  position: relative;
+  top:0;
+}
+
+/*page 4*/
+.page-4{
+  color:#fff;
+  height: 100%;
+  background: url("http://libuv.org/images/libuv-bg.png") center center no-repeat fixed #333;
+  background-size: 500px;
+}
+
+.page-4 .container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.page-4 .answer{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.page-4 .question{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
